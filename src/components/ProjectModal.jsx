@@ -125,6 +125,17 @@ export default function ProjectModal({ project, onClose }) {
                 <span>↗</span>
               </a>
             )}
+            {project.githubUrl && (
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="px-5 py-2.5 bg-[#1b1b1b] hover:bg-[#252525] border border-[#383838] text-white rounded font-mono font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-1.5"
+              >
+                <span>GitHub Repo</span>
+                <span>↗</span>
+              </a>
+            )}
             <a
               href="#contact"
               onClick={onClose}

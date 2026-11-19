@@ -33,7 +33,8 @@ A modern, high-performance web developer portfolio built with **React**, **Vite*
 - **Responsive Floating Navigation**: Sticky top navigation with brand monogram, smooth section scrolling, social links (GitHub, LinkedIn, Email), and a mobile hamburger menu.
 - **Hero Section**: Introduces Muhammad's dual background in Electrical Engineering and full-stack software development, featuring core pillars (Go, TypeScript, Docker, AWS), and a tech stack badge strip.
 - **Featured Case Studies**:
-  - **CLOB Group**: Curated Luxury Real Estate & Advisory Platform in Lagos (*Live on Netlify*).
+  - **Centric**: Peer-to-peer urban logistics marketplace built for **Wema Hackaholics 7.0 (YabaTech)** with a team of 4 ([Live Web App](https://orbit-billing-nomba.vercel.app/)).
+  - **CLOB Group**: Curated Luxury Real Estate & Advisory Platform in Lagos ([Live Platform](https://clobgroup.netlify.app/)).
   - **StreamPay**: Decentralized payment gateway and merchant dashboard leveraging Stellar blockchain rails.
   - **TrusTrove**: Trustless web escrow platform with cryptographic contract audits and milestone verification.
   - **SnippetBox Enterprise**: High-throughput web service in Go featuring connection pooling and TLS encryption.

@@ -2,6 +2,28 @@ import React from 'react'
 
 export const caseStudyData = [
   {
+    id: 'centric-logistics-hackathon',
+    tag: 'Hackathon Project • Team of 4',
+    tagBg: 'bg-[#e0fff8]',
+    tagText: 'text-[#2ab090]',
+    btnBg: 'bg-[#2ab090] hover:bg-[#23997d] border border-[#48c9ab]',
+    title: 'Centric — P2P Urban Logistics Marketplace (Wema Hackaholics 7.0)',
+    liveUrl: 'https://orbit-billing-nomba.vercel.app/',
+    description:
+      'A collaborative peer-to-peer logistics marketplace designed for African cities. Built for the Wema Hackaholics 7.0 Hackathon with a team of 4, Centric coordinates verified commuters, existing journeys, parcel demand, trust, and proof-of-delivery to move goods efficiently with zero dedicated fleet overhead.',
+    image: '/assets/32728.png',
+    stack: ['Next.js (App Router)', 'TypeScript', 'Redux Toolkit', 'Framer Motion', 'Tailwind CSS'],
+    metrics: ['Team of 4 Engineers', 'Wema Hackaholics 7.0', 'Zero Fleet Overhead'],
+    detailedOverview:
+      'African urban centers face severe logistics friction: high delivery fees, urban congestion, and fragmented dispatch operations. Centric solves this by turning daily commuters into verified couriers. Developed collaboratively in a 4-person team during Wema Hackaholics 7.0 (YabaTech), the frontend incorporates multi-step identity verification, vehicle profiling, dynamic parcel routing, and real-time state management using Redux Toolkit and Next.js.',
+    features: [
+      'Multi-step verified commuter onboarding with government ID check, phone verification, and vehicle registration',
+      'Dynamic journey matching coordinating parcel senders with commuters traveling in the same transit direction',
+      'Scalable state management using Redux Toolkit with Framer Motion animated interactive step indicators',
+      'Built and integrated under intense hackathon sprint conditions with agile Git team collaboration',
+    ],
+  },
+  {
     id: 'clobgroup-real-estate',
     tag: 'Client Production Platform',
     tagBg: 'bg-[#fff6e9]',
@@ -51,7 +73,7 @@ export const caseStudyData = [
     title: 'TrusTrove — Trustless Web Escrow & Milestone Verification Platform',
     description:
       'Engineered an automated digital escrow web application with cryptographic contract validations, multi-sig approval workflows, and client-side key protection designed for remote contractor agreements.',
-    image: '/assets/32728.png',
+    image: '/assets/21b38.png',
     stack: ['TypeScript', 'Next.js', 'React', 'TailwindCSS', 'Web3', 'Docker'],
     metrics: ['Zero Counterparty Risk', 'Multi-Sig Approval', 'Instant Dispute Resolution'],
     detailedOverview:
@@ -60,26 +82,6 @@ export const caseStudyData = [
       'Milestone tracking interface with encrypted deliverable upload verification',
       'Two-party multisig release mechanism with automated timeout resolution',
       'Client-side key derivation and cryptographic hash verification to ensure zero data leakage',
-    ],
-  },
-  {
-    id: 'snippetbox-backend',
-    tag: 'Backend Systems',
-    tagBg: 'bg-[#f0f0f0]',
-    tagText: 'text-[#333333]',
-    btnBg: 'bg-[#333333] hover:bg-[#222222] border border-[#444444]',
-    title: 'SnippetBox Enterprise — High-Throughput Snippet & API Engine',
-    description:
-      'Built a production-grade web application in Go featuring database connection pooling, secure session managers, TLS encryption, middleware pipelines, and RESTful API endpoints for engineering teams.',
-    image: '/assets/21b38.png',
-    stack: ['Go', 'Docker', 'PostgreSQL', 'Linux', 'TailwindCSS', 'REST APIs'],
-    metrics: ['Sub-5ms Response Time', 'Connection Pooling', 'TLS 1.3 Enforced'],
-    detailedOverview:
-      'Engineered from the ground up to explore foundational backend scalability and security patterns. The application avoids bloated frameworks in favor of idiomatic Go standard library primitives, structured middleware logging, and automated SQL injection defense.',
-    features: [
-      'Database connection pooling with auto-reconnection and prepared statement caching',
-      'Encrypted cookie-based session store with CSRF protection middleware',
-      'Docker containerized deployment pipeline ready for cloud hosting on AWS',
     ],
   },
 ]
@@ -95,7 +97,7 @@ export default function CaseStudies({ onSelectProject }) {
           </h2>
           <div className="w-12 h-1 bg-[#3f8e00] rounded-full my-4" />
           <p className="font-mono text-[#757575] text-sm sm:text-base leading-relaxed">
-            Real production architectures and client platforms engineered by Muhammad Sarumi, spanning commercial real estate web portals, Web3 payment rails, and secure backend microservices.
+            Real production systems, client platforms, and collaborative hackathon builds engineered by Muhammad Sarumi.
           </p>
         </div>
 
@@ -170,6 +172,18 @@ export default function CaseStudies({ onSelectProject }) {
                         className="flex items-center gap-2 px-5 py-3 rounded text-gray-800 hover:text-black font-mono font-bold text-sm bg-gray-100 hover:bg-gray-200 border border-gray-300 transition-all duration-150 active:scale-95"
                       >
                         <span>Visit Live Site</span>
+                        <span className="text-xs">↗</span>
+                      </a>
+                    )}
+
+                    {item.githubUrl && (
+                      <a
+                        href={item.githubUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="flex items-center gap-2 px-5 py-3 rounded text-gray-800 hover:text-black font-mono font-bold text-sm bg-gray-100 hover:bg-gray-200 border border-gray-300 transition-all duration-150 active:scale-95"
+                      >
+                        <span>GitHub Repo</span>
                         <span className="text-xs">↗</span>
                       </a>
                     )}
