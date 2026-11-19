@@ -6,7 +6,7 @@ A modern, high-performance web developer portfolio built with **React**, **Vite*
 
 ---
 
-## 🚀 Live Demo & Links
+## Live Demo & Links
 
 * **Live Development Server**: `http://localhost:3000`
 * **Featured Client Project**: [CLOB Group Live Platform](https://clobgroup.netlify.app/)
@@ -15,7 +15,7 @@ A modern, high-performance web developer portfolio built with **React**, **Vite*
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 * **Frontend Framework**: [React 18](https://react.dev/)
 * **Build Tool & Bundler**: [Vite 5](https://vitejs.dev/)
@@ -28,7 +28,7 @@ A modern, high-performance web developer portfolio built with **React**, **Vite*
 
 ---
 
-## ✨ Features
+## Features
 
 - **Responsive Floating Navigation**: Sticky top navigation with brand monogram, smooth section scrolling, social links (GitHub, LinkedIn, Email), and a mobile hamburger menu.
 - **Hero Section**: Introduces Muhammad's dual background in Electrical Engineering and full-stack software development, featuring core pillars (Go, TypeScript, Docker, AWS), and a tech stack badge strip.
@@ -44,7 +44,7 @@ A modern, high-performance web developer portfolio built with **React**, **Vite*
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Portfolio_re/
@@ -75,7 +75,7 @@ Portfolio_re/
 
 ---
 
-## 🚦 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -124,7 +124,7 @@ npm run preview
 
 ---
 
-## 👤 Author
+## Author
 
 **Muhammad Sarumi**
 * **Role**: Electrical Engineer & Full-Stack Web Developer
@@ -133,7 +133,7 @@ npm run preview
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [ISC License](LICENSE).
 

@@ -35,7 +35,9 @@ export default function ProjectModal({ project, onClose }) {
             aria-label="Close modal"
             className="w-8 h-8 rounded-full bg-[#252525] hover:bg-[#333333] text-gray-400 hover:text-white flex items-center justify-center transition-colors"
           >
-            ✕
+            <svg className="w-4 h-4 stroke-current fill-none" viewBox="0 0 24 24" strokeWidth="2">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
           </button>
         </div>
 

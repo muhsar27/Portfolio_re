@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="flex items-center gap-2 text-center sm:text-left">
           <span>© {new Date().getFullYear()} Muhammad Sarumi.</span>
           <span className="hidden sm:inline">•</span>
-          <span>Full-Stack Web Dev & Systems Engineering ❤️</span>
+          <span>Full-Stack Web Dev & Systems Engineering</span>
         </div>
 
         {/* Back to top button */}
