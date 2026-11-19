@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import CaseStudies from './components/CaseStudies'
-import Testimonials from './components/Testimonials'
 import RecentWork from './components/RecentWork'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -23,9 +22,6 @@ export default function App() {
 
         {/* Case Studies Section (White background high contrast from template) */}
         <CaseStudies onSelectProject={(p) => setSelectedProject(p)} />
-
-        {/* Testimonials Section (Dark background from template) */}
-        <Testimonials />
 
         {/* Recent Work Section (Light background with carousel controls from template) */}
         <RecentWork onSelectProject={(p) => setSelectedProject(p)} />

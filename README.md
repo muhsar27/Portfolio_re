@@ -40,7 +40,6 @@ A modern, high-performance web developer portfolio built with **React**, **Vite*
   - **SnippetBox Enterprise**: High-throughput web service in Go featuring connection pooling and TLS encryption.
 - **Recent Work**: Highlighted tools including the **AsciiArt Web Engine** (Go) and **PointBox UI** (React + TypeScript).
 - **Interactive Project Modal**: Deep dive into architecture breakdowns, key features delivered, metrics, and direct live deployment links.
-- **Testimonials Section**: High-contrast grid featuring recommendations with quote watermarks.
 - **Contact Form**: Interactive message dispatcher with real-time feedback, field validation, and direct email connection.
 
 ---
