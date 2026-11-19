@@ -5,6 +5,7 @@ export const recentWorkData = [
     id: 'ascii-art-web',
     title: 'AsciiArt Web — Visual Text Manipulation & Rendering Suite',
     category: 'Go & Web Service',
+    liveUrl: 'https://ascii-art-web-mqal.onrender.com/',
     description:
       'A responsive web application and backend server built in Go that translates alphanumeric text into dynamic ASCII art banners with real-time font banner switching and error boundary safeguards.',
     image: '/assets/22c4f.png',
@@ -134,7 +135,7 @@ export default function RecentWork({ onSelectProject }) {
                   ))}
                 </div>
 
-                <div className="pt-4 border-t border-gray-100">
+                <div className="pt-4 border-t border-gray-100 flex flex-wrap items-center gap-3">
                   <button
                     onClick={() => onSelectProject(work)}
                     className="inline-flex items-center gap-2 bg-[#3f8e00] hover:bg-[#4ea805] text-white px-5 py-2.5 rounded font-mono font-bold text-xs uppercase tracking-wider border border-[#62ba1b] transition-all"
@@ -142,6 +143,17 @@ export default function RecentWork({ onSelectProject }) {
                     <span>Know more</span>
                     <img src="/assets/4dc39.svg" alt="arrow" className="w-1.5 h-3" />
                   </button>
+                  {work.liveUrl && (
+                    <a
+                      href={work.liveUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded text-gray-800 hover:text-black font-mono font-bold text-xs uppercase tracking-wider bg-gray-100 hover:bg-gray-200 border border-gray-300 transition-all"
+                    >
+                      <span>Visit Live Site</span>
+                      <span>↗</span>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
